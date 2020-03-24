@@ -1,7 +1,7 @@
 ---
-title: Configure Modules
-linktitle: Configure Modules
-description: This page describes the configuration options for a module.
+title: 配置模块
+linktitle: 配置模块
+description: 本页面描述了一个模块的配置选项。
 date: 2019-07-24
 categories: [hugo modules]
 keywords: [themes, source, organization, directories]
@@ -58,7 +58,7 @@ Any of the above can be omitted.
 min
 : The minimum Hugo version supported, e.g. `0.55.0`
 
-max 
+max
 : The maximum Hugo version supported, e.g. `0.55.0`
 
 extended
@@ -73,7 +73,7 @@ extended
   ignoreConfig = false
   disable = false
 [[module.imports]]
-  path = "my-shortcodes"  
+  path = "my-shortcodes"
 {{< /code-toggle >}}
 
 path

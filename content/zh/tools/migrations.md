@@ -1,7 +1,7 @@
 ---
-title: Migrate to Hugo
-linktitle: Migrations
-description: A list of community-developed tools for migrating from your existing static site generator or content management system to Hugo.
+title: 迁移到Hugo
+linktitle: 迁移
+description: 从现有的静态站点生成器或内容管理系统Hugo迁移的社区开发的工具列表。
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2017-02-01
@@ -54,7 +54,7 @@ Alternatively, you can use the new [Jekyll import command](/commands/hugo_import
 ## Medium
 
 - [medium2md](https://github.com/gautamdhameja/medium-2-md) - A simple Medium to Hugo exporter able to import stories in one command, including Front Matter.
-- [medium-to-hugo](https://github.com/bgadrian/medium-to-hugo) - CLI tool written in Go to export medium posts into a Hugo compatible Markdown format. Tags and images are included. All images will be downloaded locally and linked appropriately. 
+- [medium-to-hugo](https://github.com/bgadrian/medium-to-hugo) - CLI tool written in Go to export medium posts into a Hugo compatible Markdown format. Tags and images are included. All images will be downloaded locally and linked appropriately.
 
 ## Tumblr
 
@@ -74,7 +74,7 @@ Alternatively, you can use the new [Jekyll import command](/commands/hugo_import
 
 - [blogimport](https://github.com/natefinch/blogimport) - A tool to import from Blogger posts to Hugo.
 - [blogger-to-hugo](https://bitbucket.org/petraszd/blogger-to-hugo) - Another tool to import Blogger posts to Hugo. It also downloads embedded images so they will be stored locally.
-- [blog2md](https://github.com/palaniraja/blog2md) - Works with [exported xml](https://support.google.com/blogger/answer/41387?hl=en) file of your YOUR-TLD.blogspot.com website. It also saves comments to `YOUR-POST-NAME-comments.md` file along with posts. 
+- [blog2md](https://github.com/palaniraja/blog2md) - Works with [exported xml](https://support.google.com/blogger/answer/41387?hl=en) file of your YOUR-TLD.blogspot.com website. It also saves comments to `YOUR-POST-NAME-comments.md` file along with posts.
 - [BloggerToHugo](https://github.com/huanlin/blogger-to-hugo) - Yet another tool to import Blogger posts to Hugo. For Windows platform only, and .NET Framework 4.5 is required. See README.md before using this tool.
 
 ## Contentful

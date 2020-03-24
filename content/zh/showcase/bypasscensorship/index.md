@@ -1,7 +1,7 @@
 ---
 title: Bypass Censorship
 date: 2019-06-16
-description: "Showcase: Bypass Censorship find and promote tools that provide Internet access to everyone."
+description: "Showcase: 旁路审查发现和促进提供互联网接入每个人的工具。"
 siteURL: https://www.bypasscensorship.org/
 byline: "[Fredrik Jonsson](https://xdeb.net/), Web developer & Linux sysadmin"
 

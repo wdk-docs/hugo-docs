@@ -1,7 +1,7 @@
 ---
-title: Deployment with Rsync
-linktitle: Deployment with Rsync
-description: If you have access to your web host with SSH, you can use a simple rsync one-liner to incrementally deploy your entire Hugo website.
+title: 使用rsync部署
+linktitle: 使用rsync部署
+description: 如果你有机会使用SSH连接您的虚拟主机，你可以使用一个简单的rsync的一行来逐步部署整个雨果的网站。
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2019-10-03
@@ -98,7 +98,7 @@ Add the following content. Replace the `USER`, `HOST`, and `DIR` values with you
 ```
 #!/bin/sh
 USER=my-user
-HOST=my-server.com             
+HOST=my-server.com
 DIR=my/directory/to/topologix.fr/   # the directory where your web site files should go
 
 hugo && rsync -avz --delete public/ ${USER}@${HOST}:~/${DIR}

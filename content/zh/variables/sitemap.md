@@ -1,6 +1,6 @@
 ---
-title: Sitemap Variables
-linktitle: Sitemap Variables
+title: 网站地图变量
+linktitle: 网站地图变量
 description:
 date: 2017-03-12
 publishdate: 2017-03-12

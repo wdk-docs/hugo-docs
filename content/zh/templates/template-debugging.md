@@ -1,5 +1,5 @@
 ---
-title: Template Debugging
+title: 模板调试
 # linktitle: Template Debugging
 description: You can use Go templates' `printf` function to debug your Hugo  templates. These snippets provide a quick and easy visualization of the variables available to you in different contexts.
 godocref: https://golang.org/pkg/fmt/

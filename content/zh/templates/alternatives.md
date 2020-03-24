@@ -1,6 +1,6 @@
 ---
 title: DEPRECATED - Alternative Templating Languages
-linktitle: Alternative Templating
+linktitle: 另类模板
 description: DEPRECATED - Support for Ace & Amber templating has been removed in version 0.62
 godocref:
 date: 2017-02-01

@@ -1,7 +1,7 @@
 ---
-title: Search for your Hugo Website
-linktitle: Search
-description: See some of the open-source and commercial search options for your newly created Hugo website.
+title: 搜索您的Hugo网站
+linktitle: 搜索
+description: 看到一些开源和商业搜索选项为新创建的Hugo的网站。
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2017-02-26

@@ -1,7 +1,7 @@
 ---
-title: Host-Agnostic Deploys with Nanobox
-linktitle: Host-Agnostic Deploys with Nanobox
-description: Easily deploy Hugo to AWS, DigitalOcean, Google, Azure, and more...
+title: 使用Nanobox的主机无关部署
+linktitle: 使用Nanobox的主机无关部署
+description: 轻松在AWS，DigitalOcean，谷歌，Azure以及更多...部署Hugo
 date: 2017-08-24
 publishdate: 2017-08-24
 lastmod: 2017-08-24

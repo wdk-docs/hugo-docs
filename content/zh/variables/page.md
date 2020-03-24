@@ -1,7 +1,7 @@
 ---
-title: Page Variables
+title: 页面变量
 linktitle:
-description: Page-level variables are defined in a content file's front matter, derived from the content's file location, or extracted from the content body itself.
+description: 页面级变量在内容文件的扉页定义，从内容的文件位置处获得，或从内容身体本身提取。
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2017-02-01
@@ -25,7 +25,7 @@ The following is a list of page-level variables. Many of these will be defined i
 See [`.Scratch`](/functions/scratch/) for page-scoped, writable variables.
 {{% /note %}}
 
-## Page Variables
+## Page 变量
 
 .AlternativeOutputFormats
 : contains all alternative formats for a given page; this variable is especially useful `link rel` list in your site's `<head>`. (See [Output Formats](/templates/output-formats/).)
@@ -188,22 +188,22 @@ http://remarkjs.com)
 .WordCount
 : the number of words in the content.
 
-## Section Variables and Methods
+## 章节变量和方法
 
 Also see [Sections](/content-management/sections/).
 
 {{< readfile file="/content/en/readfiles/sectionvars.md" markdown="true" >}}
 
-## The `.Pages` Variable {#pages}
+## `.Pages` 变量 {#pages}
 
 `.Pages` is an alias to `.Data.Pages`. It is conventional to use the
 aliased form `.Pages`.
 
-### `.Pages` compared to `.Site.Pages`
+### `.Pages` 相比 `.Site.Pages`
 
 {{< readfile file="/content/en/readfiles/pages-vs-site-pages.md" markdown="true" >}}
 
-## Page-level Params
+## 页面级参数
 
 Any other value defined in the front matter in a content file, including taxonomies, will be made available as part of the `.Params` variable.
 
@@ -255,7 +255,7 @@ This template would render as follows, assuming you've set [`uglyURLs`](/content
 See [Archetypes](/content-management/archetypes/) for consistency of `Params` across pieces of content.
 {{% /note %}}
 
-### The `.Param` Method
+### `.Param` 方法
 
 In Hugo, you can declare params in individual pages and globally for your entire website. A common use case is to have a general value for the site param and a more specific value for some of the pages (i.e., a header image):
 
@@ -265,9 +265,9 @@ In Hugo, you can declare params in individual pages and globally for your entire
 
 The `.Param` method provides a way to resolve a single value according to it's definition in a page parameter (i.e. in the content's front matter) or a site parameter (i.e., in your `config`).
 
-### Access Nested Fields in Front Matter
+### 访问扉页的嵌套字段
 
-When front matter contains nested fields like the following:
+如果扉页中包含类似下面的嵌套字段:
 
 ```
 ---

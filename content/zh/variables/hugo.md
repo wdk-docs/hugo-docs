@@ -1,6 +1,6 @@
 ---
-title: Hugo-specific Variables
-linktitle: Hugo Variables
+title: Hugo-specific 变量
+linktitle: Hugo 变量
 description: The `.Hugo` variable provides easy access to Hugo-related data.
 date: 2017-03-12
 publishdate: 2017-03-12
@@ -20,7 +20,7 @@ wip: false
 ---
 
 {{% warning "Deprecated" %}}
-Page's `.Hugo` is deprecated and will be removed in a future release. Use the global `hugo` function.  
+Page's `.Hugo` is deprecated and will be removed in a future release. Use the global `hugo` function.
 For example: `hugo.Generator`.
 {{% /warning %}}
 

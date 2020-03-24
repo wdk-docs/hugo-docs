@@ -1,7 +1,7 @@
 ---
-title: File Variables
+title: 文件变量
 linktitle:
-description: "You can access filesystem-related data for a content file in the `.File` variable."
+description: "您可以在`.File`变量访问文件系统的相关数据内容文件。"
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2017-02-01
@@ -22,7 +22,7 @@ toc: false
 For information on creating shortcodes and templates that tap into Hugo's file-related feature set, see [Local File Templates](/templates/files/).
 {{% /note %}}
 
-The `.File` object contains the following fields:
+`.File` 对象包含以下字段:
 
 .File.Path
 : the original relative path of the page, relative to the content dir (e.g., `posts/foo.en.md`)
@@ -33,9 +33,9 @@ The `.File` object contains the following fields:
 .File.TranslationBaseName
 : the filename without extension or optional language identifier (e.g., `foo`)
 
-.File.ContentBaseName 
+.File.ContentBaseName
 : is a either TranslationBaseName or name of containing folder if file is a leaf bundle.
-  
+
 .File.BaseFileName
 : the filename without extension (e.g., `foo.en`)
 

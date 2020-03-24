@@ -1,5 +1,5 @@
 ---
-title: Sitemap Template
+title: 网站地图模板
 # linktitle: Sitemap
 description: Hugo ships with a built-in template file observing the v0.9 of the Sitemap Protocol, but you can override this template if needed.
 date: 2017-02-01

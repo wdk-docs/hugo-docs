@@ -1,6 +1,6 @@
 ---
-title: Local File Templates
-linktitle: Local File Templates
+title: 本地文件模板
+linktitle: 本地文件模板
 description: Hugo's `readDir` and `readFile` functions make it easy to traverse your project's directory structure and write file contents to your templates.
 godocref: https://golang.org/pkg/os/#FileInfo
 date: 2017-02-01

@@ -1,6 +1,6 @@
 ---
-title: Host on Render
-linktitle: Host on Render
+title: Render托管
+linktitle: Render托管
 description: Host your Hugo site for free with Render's global CDN, fully-managed SSL and auto deploys from GitHub.
 date: 2019-06-06
 publishdate: 2019-06-06

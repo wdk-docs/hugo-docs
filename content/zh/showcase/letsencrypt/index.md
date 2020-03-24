@@ -1,7 +1,7 @@
 ---
 title: "Let’s Encrypt"
 date: 2018-03-13
-description: "Showcase: Lessons learned from taking letsencrypt.org to Hugo."
+description: "Showcase: 教训采取letsencrypt.orgHugo教训。"
 siteURL: https://letsencrypt.org/
 siteSource: https://github.com/letsencrypt/website
 byline: "[bep](https://github.com/bep), Hugo Lead"

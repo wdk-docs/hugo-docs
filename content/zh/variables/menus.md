@@ -1,7 +1,7 @@
 ---
-title: Menu Entry Properties
-linktitle: Menu Entry Properties
-description: A menu entry in a menu-template has specific variables and functions to make menu management easier.
+title: 菜单项属性
+linktitle: 菜单项属性
+description: 在菜单模板菜单项都有具体的变量和函数，使菜单管理更容易。
 date: 2017-03-12
 publishdate: 2017-03-12
 lastmod: 2017-03-12

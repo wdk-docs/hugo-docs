@@ -1,7 +1,7 @@
 ---
-title: Contribute to Hugo Development
-linktitle: Development
-description: Hugo relies heavily on contributions from the open source community.
+title: 贡献Hugo开发
+linktitle: 开发
+description: Hugo在很大程度上依赖于来自开源社区的贡献.
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2017-02-01
@@ -18,11 +18,11 @@ draft: false
 toc: true
 ---
 
-## Introduction
+## 介绍
 
 Hugo is an open-source project and lives by the work of its [contributors][]. There are plenty of [open issues][issues], and we need your help to make Hugo even more awesome. You don't need to be a Go guru to contribute to the project's development.
 
-## Assumptions
+## 假设
 
 This contribution guide takes a step-by-step approach in hopes of helping newcomers. Therefore, we only assume the following:
 
@@ -33,13 +33,13 @@ This contribution guide takes a step-by-step approach in hopes of helping newcom
 If you're struggling at any point in this contribution guide, reach out to the Hugo community in [Hugo's Discussion forum](https://discourse.gohugo.io).
 {{% /note %}}
 
-## Install Go
+## 安装 Go
 
 The installation of Go should take only a few minutes. You have more than one option to get Go up and running on your machine.
 
 If you are having trouble following the installation guides for Go, check out [Go Bootcamp, which contains setups for every platform][gobootcamp] or reach out to the Hugo community in the [Hugo Discussion Forums][forums].
 
-### Install Go From Source
+### 从源代码安装 Go
 
 [Download the latest stable version of Go][godl] and follow the official [Go installation guide][goinstall].
 
@@ -63,7 +63,7 @@ You can print the `GOPATH` with `echo $GOPATH`. You should see a non-empty strin
 /Users/<yourusername>/Code/go
 ```
 
-### Install Go with Homebrew
+### 使用Homebrew安装 Go
 
 If you are a MacOS user and have [Homebrew](https://brew.sh/) installed on your machine, installing Go is as simple as the following command:
 
@@ -71,17 +71,17 @@ If you are a MacOS user and have [Homebrew](https://brew.sh/) installed on your 
 brew install go
 {{< /code >}}
 
-### Install Go via GVM
+### 通过GVM安装 Go
 
 More experienced users can use the [Go Version Manager][gvm] (GVM). GVM allows you to switch between different Go versions *on the same machine*. If you're a beginner, you probably don't need this feature. However, GVM makes it easy to upgrade to a new released Go version with just a few commands.
 
 GVM comes in especially handy if you follow the development of Hugo over a longer period of time. Future versions of Hugo will usually be compiled with the latest version of Go. Sooner or later, you will have to upgrade if you want to keep up.
 
-## Create a GitHub Account
+## 创建一个GitHub的账户
 
 If you're going to contribute code, you'll need to have an account on GitHub. Go to [www.github.com/join](https://github.com/join) and set up a personal account.
 
-## Install Git on Your System
+## 在系统上安装的Git
 
 You will need to have Git installed on your computer to contribute to Hugo development. Teaching Git is outside the scope of the Hugo docs, but if you're looking for an excellent reference to learn the basics of Git, we recommend the [Git book][gitbook] if you are not sure where to begin. We will include short explanations of the Git commands in this document.
 
@@ -93,11 +93,11 @@ Move back to the terminal and check if Git is already installed. Type in `git ve
 
 Finally, check again with `git version` if Git was installed successfully.
 
-### Git Graphical Front Ends
+### Git的图形化的前端
 
 There are several [GUI clients](https://git-scm.com/downloads/guis) that help you to operate Git. Not all are available for all operating systems and maybe differ in their usage. Because of this we will document how to use the command line, since the commands are the same everywhere.
 
-### Install Hub on Your System (Optional)
+### 在系统上安装集线器 (可选的)
 
 Hub is a great tool for working with GitHub. The main site for it is [hub.github.com](https://hub.github.com/). Feel free to install this little Git wrapper.
 
@@ -120,11 +120,11 @@ git version 2.21.0
 hub version 2.10.0
 ```
 
-## Set up your working copy
+## 设置您的工作副本
 
 You set up the working copy of the repository locally on your computer. Your local copy of the files is what you'll edit, compile, and end up pushing back to GitHub. The main steps are cloning the repository and creating your fork as a remote.
 
-### Clone the repository
+### 克隆库
 
 We assume that you've set up your `GOPATH` (see the section above if you're unsure about this). You should now copy the Hugo repository down to your computer. You'll hear this called "clone the repo". GitHub's [help pages](https://help.github.com/articles/cloning-a-repository/) give us a short explanation:
 
@@ -140,7 +140,7 @@ cd $HOME/src
 git clone https://github.com/gohugoio/hugo.git
 ```
 
-> Since Hugo 0.48, Hugo uses the Go Modules support built into Go 1.11 to build. 
+> Since Hugo 0.48, Hugo uses the Go Modules support built into Go 1.11 to build.
 > The easiest is to clone Hugo in a directory outside of GOPATH
 
 And then, install dependencies of Hugo by running the following in the cloned directory:
@@ -157,13 +157,13 @@ Hugo relies on [mage](https://github.com/magefile/mage) for some convenient buil
 go get github.com/magefile/mage
 ```
 
-### Fork the repository
+### 叉库
 
 If you're not familiar with this term, GitHub's [help pages](https://help.github.com/articles/fork-a-repo/) provide again a simple explanation:
 
 > A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
 
-#### Fork by hand
+#### 手叉
 
 Open the [Hugo repository](https://github.com/gohugoio/hugo) on GitHub and click on the "Fork" button in the top right.
 
@@ -185,7 +185,7 @@ Now Git needs to know that our fork exists by adding the copied remote url:
 git remote add <YOUR-GITHUB-USERNAME> <COPIED REMOTE-URL>
 ```
 
-#### Fork with Hub
+#### 集线器叉
 
 Alternatively, you can use the Git wrapper Hub. Hub makes forking a repository easy:
 
@@ -195,7 +195,7 @@ git fork
 
 That command will log in to GitHub using your account, create a fork of the repository that you're currently working in, and add it as a remote to your working copy.
 
-#### Trust, but verify
+#### 信任但要验证
 
 Let's check if everything went right by listing all known remotes:
 
@@ -212,9 +212,9 @@ origin  https://github.com/gohugoio/hugo (fetch)
 origin  https://github.com/gohugoio/hugo (push)
 ```
 
-## The Hugo Git Contribution Workflow
+## Hugo Git的工作流程的贡献
 
-### Create a new branch
+### 创建一个新的分支
 
 You should never develop against the "master" branch. The development team will not accept a pull request against that branch. Instead, create a descriptive named branch and work on it.
 
@@ -233,7 +233,7 @@ git checkout -b <BRANCH-NAME>
 
 You can check on which branch you are with `git branch`. You should see a list of all local branches. The current branch is indicated with a little asterisk.
 
-### Contribute to Documentation
+### 贡献文档
 
 Perhaps you want to start contributing to the Hugo docs. If so, you can ignore most of the following steps and focus on the `/docs` directory within your newly cloned repository. You can change directories into the Hugo docs using `cd docs`.
 
@@ -241,7 +241,7 @@ You can start Hugo's built-in server via `hugo server`. Browse the documentation
 
 We have developed a [separate Hugo documentation contribution guide][docscontrib] for more information on how the Hugo docs are built, organized, and improved by the generosity of people like you.
 
-### Build Hugo
+### 构建 Hugo
 
 While making changes in the codebase it's a good idea to build the binary to test them:
 
@@ -257,10 +257,10 @@ If you want to install the binary in `$GOPATH/bin`, run
 mage install
 ```
 
-### Test 
+### 测试
 Sometimes changes on the codebase can cause unintended side effects. Or they don't work as expected. Most functions have their own test cases. You can find them in files ending with `_test.go`.
 
-Make sure the commands 
+Make sure the commands
 
 ```
 mage -v check
@@ -268,7 +268,8 @@ mage -v check
 
 passes.
 
-### Formatting 
+### 格式化
+
 The Go code styleguide maybe is opinionated but it ensures that the codebase looks the same, regardless who wrote the code. Go comes with its own formatting tool. Let's apply the styleguide to our additions:
 
 ```
@@ -285,13 +286,13 @@ git commit --message "YOUR COMMIT MESSAGE"
 
 The commit message should describe what the commit does (e.g. add feature XYZ), not how it is done.
 
-### Modify commits
+### 修改提交
 
 You noticed some commit messages don't fulfill the code contribution guidelines or you just forget something to add some files? No problem. Git provides the necessary tools to fix such problems. The next two methods cover all common cases.
 
 If you are unsure what a command does leave the commit as it is. We can fix your commits later in the pull request.
 
-#### Modify the last commit
+#### 修改最后一次提交
 
 Let's say you want to modify the last commit message. Run the following command and replace the current message:
 
@@ -313,7 +314,7 @@ git add --all
 git commit --amend
 ```
 
-#### Modify multiple commits
+#### 修改多次提交
 
 {{% warning "Be Careful Modifying Multiple Commits"%}}
 Modifications such as those described in this section can have serious unintended consequences. Skip this section if you're not sure!
@@ -372,7 +373,7 @@ Successfully rebased and updated refs/heads/<BRANCHNAME>.
 
 Check the commit log if everything looks as expected. Should an error occur you can abort this rebase with `git rebase --abort`.
 
-### Push commits
+### 推提交
 
 To push our commits to the fork on GitHub we need to specify a destination. A destination is defined by the remote and a branch name. Earlier, the defined that the remote url of our fork is the same as our GitHub handle, in my case `digitalcraftsman`. The branch should have the same as our local one. This makes it easy to identify corresponding branches.
 
@@ -384,7 +385,7 @@ Now Git knows the destination. Next time when you to push commits you just need 
 
 If you modified your commit history in the last step GitHub will reject your try to push. This is a safety-feature because the commit history isn't the same and new commits can't be appended as usual. You can enforce this push explicitly with `git push --force`.
 
-## Open a pull request
+## 打开拉入请求
 
 We made a lot of progress. Good work. In this step we finally open a pull request to submit our additions. Open the [Hugo master repository](https://github.com/gohugoio/hugo/) on GitHub in your browser.
 
@@ -394,13 +395,13 @@ You should find a green button labeled with "New pull request". But GitHub is cl
 
 The new page summaries the most important information of your pull request. Scroll down and you find the additions of all your commits. Make sure everything looks as expected and click on "Create pull request".
 
-### Accept the contributor license agreement
+### 接受贡献者许可协议
 
 Last but not least you should accept the contributor license agreement (CLA). A new comment should be added automatically to your pull request. Click on the yellow badge, accept the agreement and authenticate yourself with your GitHub account. It just takes a few clicks and only needs to be done once.
 
 ![Accept the CLA](/images/contribute/development/accept-cla.png)
 
-### Automatic builds
+### 自动构建
 
 We use the [Travis CI loop](https://travis-ci.org/gohugoio/hugo) (Linux and OS&nbsp;X) and [AppVeyor](https://ci.appveyor.com/project/gohugoio/hugo/branch/master) (Windows) to compile Hugo with your additions. This should ensure that everything works as expected before merging your pull request. This in most cases only relevant if you made changes to the codebase of Hugo.
 
@@ -410,7 +411,7 @@ Above you can see that Travis wasn't able to compile the changes in this pull re
 
 If you have questions, leave a comment in the pull request. We are willing to assist you.
 
-## Where to start?
+## 从哪儿开始？
 
 Thank you for reading through this contribution guide. Hopefully, we will see you again soon on GitHub. There are plenty of [open issues][issues] for you to help with.
 

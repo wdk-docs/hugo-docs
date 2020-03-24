@@ -1,8 +1,8 @@
 ---
 
-title: Small Multiples 
+title: Small Multiples
 date: 2018-02-28
-description: "\"Hugo has excellent support and integration with Netlify and we were immediately blown away by how fast it was.\""
+description: "\"Hugo有良好的支持，并与Netlify整合，我们通过它的速度有多快，立即吹走。\""
 siteURL: https://smallmultiples.com.au/
 byline: "[Small Multiples](https://smallmultiples.com.au/)"
 draft: true

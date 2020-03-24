@@ -1,6 +1,6 @@
 ---
-title: Hugo Pipes Introduction
-description: Hugo Pipes is Hugo's asset processing set of functions.
+title: Hugo 管道简介
+description: Hugo 管道是Hugo的资产处理的功能集.
 date: 2018-07-14
 publishdate: 2018-07-14
 lastmod: 2018-07-14
@@ -14,7 +14,7 @@ weight: 01
 sections_weight: 01
 draft: false
 aliases: [/assets/]
---- 
+---
 
 ### Asset directory
 

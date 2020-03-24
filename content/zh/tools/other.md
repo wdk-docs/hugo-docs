@@ -1,7 +1,7 @@
 ---
-title: Other Hugo Community Projects
-linktitle: Other Projects
-description: Some interesting projects developed by the Hugo community that don't quite fit into our other developer tool categories.
+title: 其他Hugo社区项目
+linktitle: 其他的项目
+description: 由Hugo社区，不太适合我们的其他开发工具类开发了一些有趣的项目。
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2017-02-01

@@ -1,7 +1,7 @@
 ---
-title: Use Hugo Modules
-linktitle: Use Hugo Modules
-description: How to use Hugo Modules to build and manage your site.
+title: 使用Hugo模块
+linktitle: 使用Hugo模块
+description: 如何使用Hugo模块来构建和管理您的网站。
 date: 2019-07-24
 categories: [hugo modules]
 keywords: [install, themes, source, organization, directories,usage,modules]
@@ -16,13 +16,13 @@ aliases: [/themes/usage/,/themes/installing/,/installing-and-using-themes/]
 toc: true
 ---
 
-## Prerequisite
+## 条件
 
 {{< gomodules-info >}}
 
 
 
-## Initialize a New Module
+## 初始化一个新的模块
 
 Use `hugo mod init` to initialize a new Hugo Module. If it fails to guess the module path, you must provide it as an argument, e.g.:
 
@@ -33,7 +33,7 @@ hugo mod init github.com/gohugoio/myShortcodes
 
 Also see the [CLI Doc](/commands/hugo_mod_init/).
 
-## Update Modules
+## 更新模块
 
 Modules will be downloaded and added when you add them as imports to your configuration, see [Module Imports](/hugo-modules/configuration/#module-config-imports).
 
@@ -41,13 +41,13 @@ To update or manage versions, you can use `hugo mod get`.
 
 Some examples:
 
-### Update All Modules
+### 更新所有模块
 
 ```bash
 hugo mod get -u
 ```
 
-### Update All Modules Recursively
+### 更新所有模块递归
 
 {{< new-in "0.65.0" >}}
 
@@ -55,12 +55,12 @@ hugo mod get -u
 hugo mod get -u ./...
 ```
 
-### Update One Module
+### 更新一个模块
 
 ```bash
 hugo mod get -u github.com/gohugoio/myShortcodes
 ```
-### Get a Specific Version
+### 得到特定的版本
 
 ```bash
 hugo mod get github.com/gohugoio/myShortcodes@v1.0.7
@@ -68,7 +68,7 @@ hugo mod get github.com/gohugoio/myShortcodes@v1.0.7
 
 Also see the [CLI Doc](/commands/hugo_mod_get/).
 
-## Make and test changes in a module
+## 一个模块中的制作和测试的变化
 
 One way to do local development of a module imported in a project is to add a replace directive to a local directory with the source in `go.mod`:
 
@@ -76,10 +76,10 @@ One way to do local development of a module imported in a project is to add a re
 replace github.com/bep/hugotestmods/mypartials => /Users/bep/hugotestmods/mypartials
 ```
 
-If you have the `hugo server` running, the configuration will be reloaded and `/Users/bep/hugotestmods/mypartials` put on the watch list. 
+If you have the `hugo server` running, the configuration will be reloaded and `/Users/bep/hugotestmods/mypartials` put on the watch list.
 
 
-## Print Dependency Graph
+## 打印依赖图
 
 
 Use `hugo mod graph` from the relevant module directory and it will print the dependency graph, including vendoring, module replacement or disabled status.
@@ -101,7 +101,7 @@ github.com/bep/my-modular-site in-themesdir
 
 Also see the [CLI Doc](/commands/hugo_mod_graph/).
 
-## Vendor Your Modules
+## 供应商你的模块
 
 `hugo mod vendor` will write all the module depencies to a `_vendor` folder, which will then be used for all subsequent builds.
 
@@ -114,13 +114,13 @@ Note that:
 Also see the [CLI Doc](/commands/hugo_mod_vendor/).
 
 
-## Tidy go.mod, go.sum
+## 整洁 go.mod, go.sum
 
 Run `hugo mod tidy` to remove unused entries in `go.mod` and `go.sum`.
 
 Also see the [CLI Doc](/commands/hugo_mod_clean/).
 
-## Clean Module Cache
+## 清洁模块缓存
 
 Run `hugo mod clean` to delete the entire modules cache.
 

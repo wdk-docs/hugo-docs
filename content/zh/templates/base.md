@@ -1,5 +1,5 @@
 ---
-title: Base Templates and Blocks
+title: 基本模板和模块
 linktitle:
 description: The base and block constructs allow you to define the outer shell of your master templates (i.e., the chrome of the page).
 godocref: https://golang.org/pkg/text/template/#example_Template_block

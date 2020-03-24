@@ -1,6 +1,6 @@
 ---
-title: Menu Templates
-linktitle: Menu Templates
+title: 菜单模板
+linktitle: 菜单模板
 description: Menus are a powerful but simple feature for content management but can be easily manipulated in your templates to meet your design needs.
 date: 2017-02-01
 publishdate: 2017-02-01

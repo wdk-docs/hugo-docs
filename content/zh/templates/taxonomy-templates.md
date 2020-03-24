@@ -1,5 +1,5 @@
 ---
-title: Taxonomy Templates
+title: 分类模板
 # linktitle:
 description: Taxonomy templating includes taxonomy list pages, taxonomy terms pages, and using taxonomies in your single page templates.
 date: 2017-02-01

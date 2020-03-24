@@ -1,7 +1,7 @@
 ---
-title: Hosting & Deployment
-linktitle: Hosting & Deployment Overview
-description: Site builds, automated deployments, and popular hosting solutions.
+title: 托管和部署
+linktitle: 托管和部署概述
+description: 网站建立，自动部署，和流行的托管解决方案。
 date: 2016-11-01
 publishdate: 2016-11-01
 lastmod: 2016-11-01
@@ -17,4 +17,5 @@ aliases: []
 toc: false
 ---
 
-Because Hugo renders *static* websites, you can host your new Hugo website virtually anywhere. The following represent only a few of the more popular hosting and automated deployment solutions used by the Hugo community.
+因为Hugo呈现*静态*网站，你可以随时随地举办新Hugo的网站。
+以下代表由Hugo社区只用了几个比较流行的托管和自动化部署解决方案。

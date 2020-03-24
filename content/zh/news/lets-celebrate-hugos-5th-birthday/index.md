@@ -1,6 +1,6 @@
 ---
 date: 2018-07-04
-title: "Let’s celebrate Hugo’s 5th birthday"
+title: "让我们庆祝Hugo的5岁生日"
 description: "How a side project became one of the most popular frameworks for building websites."
 categories: [blog]
 author: bep
@@ -11,7 +11,7 @@ _By Bjørn Erik Pedersen ([@bepsays](https://twitter.com/bepsays) / [@bep](https
 **Five years ago today, [Steve Francia](https://github.com/spf13/) made his [first commit](https://github.com/gohugoio/hugo/commit/50a1d6f3f155ab837310e00ffb309a9199773c73
 ) on the Hugo project: "Hugo: A Fast and Flexible Static Site Generator built with love by spf13 in GoLang".**
 
-Steve was writing that on a train commute to New York. I'm writing this article running Hugo `v0.43-DEV`, the preview version of the next Hugo release. The release is scheduled for Monday and adds a powerful [assets pipeline](https://github.com/gohugoio/hugo/issues/4854#issue-333062459), with SCSS/SASS support, assets minification, fingerprinting/subresource integrity, ad-hoc image processing and much more. 
+Steve was writing that on a train commute to New York. I'm writing this article running Hugo `v0.43-DEV`, the preview version of the next Hugo release. The release is scheduled for Monday and adds a powerful [assets pipeline](https://github.com/gohugoio/hugo/issues/4854#issue-333062459), with SCSS/SASS support, assets minification, fingerprinting/subresource integrity, ad-hoc image processing and much more.
 
 **I cannot remember the last time I was this excited about a Hugo release. "Game changer" may be too strong, but it makes for a really nice integrated website design-workflow that, with Hugo's build speed, is hard to beat.**
 
@@ -38,7 +38,7 @@ Number of GitHub stars in relation to the Hugo release dates.
 
 More numbers:
 
-* 26800+ [stars](https://github.com/gohugoio/hugo/stargazers) on GitHub. 
+* 26800+ [stars](https://github.com/gohugoio/hugo/stargazers) on GitHub.
 * 444+ [contributors](https://github.com/gohugoio/hugo/graphs/contributors) to the Hugo source repository, 654+ to [Hugo Docs](https://github.com/gohugoio/hugoDocs/graphs/contributors). [@bep](https://github.com/bep) is the most active with around 70% of the current code base (line count).
 * 235+ [themes](https://themes.gohugo.io/)
 * 50% increase in the number of user sessions on the [gohugo.io](https://gohugo.io/) web sites the last 12 months.[^2]
@@ -52,7 +52,7 @@ My interest in Hugo started on the Sunday when I moved my blog, [bepsays.com](ht
 
 My goal with all of this, if there is one, is to get a single binary with native and really fast implementations of the complete stack I need for web development and content editing. The single binary takes most of the pain out of installation and upgrades (if you stick with the same binary, it will continue to just work for decades).
 
-**With 0.43, we are almost there.** With that release, it should be possible to set up a Hugo-only project without any additional tools (Gulp, WebPack) for all aspects of website building. There will still be situations where those tools will still be needed, of course, but we will continue to fill the gaps in the feature set. 
+**With 0.43, we are almost there.** With that release, it should be possible to set up a Hugo-only project without any additional tools (Gulp, WebPack) for all aspects of website building. There will still be situations where those tools will still be needed, of course, but we will continue to fill the gaps in the feature set.
 
 Hugo has stuck with the sub-zero versions to signal active development, with a new main release every 5-6 weeks. But we take stability very seriously (breaking things add lots of support work, we don't like that) and most site upgrades are [smooth](https://twitter.com/tmmx/status/1006288444459503616). But we are closing in on the first major stable version.
 
@@ -71,7 +71,7 @@ We should be able to create a better and easier-to-use data structure from the r
 
 This should also enable us to _do more_ with [Custom Output Formats](/templates/output-formats). It is already very powerful. GettyPubs are using it in [Quire](https://github.com/gettypubs/quire) to build [beautiful multi-platform publications](http://www.getty.edu/publications/digital/digitalpubs.html). But it can be improved. For rendering of content files, you are currently restricted to HTML. It would be great if we could configure alternative renderers per output format, such as LaTeX and EPUB.
 
-Related to this is also to add a configurable "Markdown URL rewriter", which should make more portable URLs in Markdown, e.g. image links that work both when viewed on GitHub and your published site. 
+Related to this is also to add a configurable "Markdown URL rewriter", which should make more portable URLs in Markdown, e.g. image links that work both when viewed on GitHub and your published site.
 
 ### The Road to the Future
 
@@ -104,5 +104,5 @@ One final note: If you have not done so already, please visit [github.com/gohugo
 Gopher artwork by [Ashley McNamara](https://github.com/ashleymcnamara/gophers/) (licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)). Inspired by [Renee French](https://reneefrench.blogspot.com/).
 
 [^2]: Numbers from Google Analytics. The Hugo websites are https://discourse.gohugo.io, https://gohugo.io and https://themes.gohugo.io. It is rumoured that when [Matt Biilman](https://twitter.com/biilmann?lang=en), CEO and Co-founder of Netlify, opened the first power bill after sponsoring Hugo's hosting, said: "Du må lave fis med mig, those Hugo sites have lots of web traffic!"
-[^sgen]: That was at the time of writing this article. _Next_, a React based static site generator, has momentum and is closing in on Hugo's 2nd place. 
+[^sgen]: That was at the time of writing this article. _Next_, a React based static site generator, has momentum and is closing in on Hugo's 2nd place.
 [^themes]: We pull all the themes from GitHub and build the theme site and 235 demo sites on Netlify in 4 minutes. That is impressive.

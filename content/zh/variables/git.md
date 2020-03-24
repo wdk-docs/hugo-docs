@@ -1,7 +1,7 @@
 ---
-title: Git Info Variables
-linktitle: Git Variables
-description: Get the last Git revision information for every content file.
+title: Git的信息变量
+linktitle: Git的变量
+description: 获取每个内容文件的最后一个Git的版本信息。
 date: 2017-03-12
 publishdate: 2017-03-12
 lastmod: 2017-03-12
@@ -23,13 +23,13 @@ wip: false
 Hugo's Git integrations should be fairly performant but *can* increase your build time. This will depend on the size of your Git history.
 {{% /note %}}
 
-## `.GitInfo` Prerequisites
+## `.GitInfo` 先决条件
 
 1. The Hugo site must be in a Git-enabled directory.
 2. The Git executable must be installed and in your system `PATH`.
 3. The `.GitInfo` feature must be enabled in your Hugo project by passing `--enableGitInfo` flag on the command line or by setting `enableGitInfo` to `true` in your [site's configuration file][configuration].
 
-## The `.GitInfo` Object
+## `.GitInfo` 对象
 
 The `GitInfo` object contains the following fields:
 

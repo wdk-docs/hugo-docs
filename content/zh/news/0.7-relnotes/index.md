@@ -1,6 +1,6 @@
 ---
 date: 2013-07-05T04:22:00Z
-description: "The first public release of Hugo."
+description: "Hugo的首次公开发行."
 title: "Hugo 0.7"
 categories: ["Releases"]
 ---

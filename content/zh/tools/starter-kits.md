@@ -1,7 +1,7 @@
 ---
-title: Starter Kits
-linktitle: Starter Kits
-description: A list of community-developed projects designed to help you get up and running with Hugo.
+title: 入门套件
+linktitle: 入门套件
+description: 旨在帮助社区开发项目的清单，你站起来，并与Hugo运行。
 date: 2017-02-22
 publishdate: 2017-02-01
 lastmod: 2018-08-11

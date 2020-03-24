@@ -2,7 +2,7 @@
 
 title: Cocoon & Cosy
 date: 2018-08-10
-description: "Showcase: \"Emergency setup a dedicated site in an afternoon.\""
+description: "Showcase: \"紧急建立一个专门的网站在一个下午。\""
 siteURL: https://www.cocoon-arolla.com
 byline: "[Didier Divinerites](https://github.com/divinerites)"
 

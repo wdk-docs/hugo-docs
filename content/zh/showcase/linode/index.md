@@ -4,7 +4,7 @@ title: Linode Docs
 
 date: 2018-02-12
 
-description: "Showcase: \"Hugo allows us to build thousands of pages in seconds.\""
+description: "Showcase: \"Hugo使我们能够建立数千个页面在几秒钟。\""
 
 siteURL: https://linode.com/docs/
 

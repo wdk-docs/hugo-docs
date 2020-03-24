@@ -1,7 +1,7 @@
 ---
 title: Forestry.io
 date: 2018-03-16
-description: "Showcase: \"Seeing Hugo in action is a whole different world of awesome.\""
+description: "Showcase: \"在行动中看到Hugo是一个完全不同的世界的真棒。\""
 siteURL: https://forestry.io/
 siteSource: https://github.com/forestryio/forestry.io
 ---
@@ -15,16 +15,16 @@ In our early research we looked at Ionic’s [site](https://github.com/ionic-tea
 We knew Hugo was fast but we did [some additional benchmarking](https://forestry.io/blog/hugo-vs-jekyll-benchmark/) before making our decision. Seeing Hugo in action is a whole different world of awesome. Hugo takes less than one second to build our 150-page site! Take a look:
 
 ```bash
-                   | EN   
+                   | EN
 +------------------+-----+
-  Pages            | 141  
-  Paginator pages  |   4  
-  Non-page files   |   0  
-  Static files     | 537  
-  Processed images |   0  
-  Aliases          |  60  
-  Sitemaps         |   1  
-  Cleaned          |   0  
+  Pages            | 141
+  Paginator pages  |   4
+  Non-page files   |   0
+  Static files     | 537
+  Processed images |   0
+  Aliases          |  60
+  Sitemaps         |   1
+  Cleaned          |   0
 
 Total in 739 ms
 ```

@@ -1,7 +1,7 @@
 ---
-title: Site Variables
-linktitle: Site Variables
-description: Many, but not all, site-wide variables are defined in your site's configuration. However, Hugo provides a number of built-in variables for convenient access to global values in your templates.
+title: 网站变量
+linktitle: 网站变量
+description: 许多人，但不是全部，整个网站的变量在您的网站的配置里定义. 然而, Hugo提供了大量的内置在你的模板方便地访问全局值的变量.
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2017-02-01
@@ -20,7 +20,7 @@ toc: true
 
 The following is a list of site-level (aka "global") variables. Many of these variables are defined in your site's [configuration file][config], whereas others are built into Hugo's core for convenient usage in your templates.
 
-## Site Variables List
+## 网站变量列表
 
 .Site.AllPages
 : array of all pages, regardless of their translation.
@@ -97,11 +97,11 @@ The following is a list of site-level (aka "global") variables. Many of these va
 .Site.Title
 : a string representing the title of the site.
 
-## The `.Site.Params` Variable
+## `.Site.Params` 变量
 
 `.Site.Params` is a container holding the values from the `params` section of your site configuration.
 
-### Example: `.Site.Params`
+### 例: `.Site.Params`
 
 The following `config.[yaml|toml|json]` defines a site-wide param for `description`:
 
@@ -119,9 +119,9 @@ You can use `.Site.Params` in a [partial template](/templates/partials/) to call
 <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
 {{< /code >}}
 
-## The `.Site.Pages` Variable {#site-pages}
+## `.Site.Pages` 变量 {#site-pages}
 
-### `.Site.Pages` compared to `.Pages`
+### `.Site.Pages` 相比 `.Pages`
 
 {{< readfile file="/content/en/readfiles/pages-vs-site-pages.md" markdown="true" >}}
 

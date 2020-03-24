@@ -1,7 +1,7 @@
 ---
-title: Variables and Params
-linktitle: Variables Overview
-description: Page-, file-, taxonomy-, and site-level variables and parameters available in templates.
+title: 变量和参数
+linktitle: 变量概述
+description: Page-, file-, taxonomy-, 和 site-level 变量和模板可用参数.
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2017-02-01
@@ -18,6 +18,6 @@ aliases: [/templates/variables/]
 toc: false
 ---
 
-Hugo's templates are context aware and make a large number of values available to you as you're creating views for your website.
+Hugo的模板是上下文感知，提供给您大量的变量，为您的网站创建视图。
 
 [Go templates]: /templates/introduction/ "Understand context in Go templates by learning the language's fundamental templating functions."

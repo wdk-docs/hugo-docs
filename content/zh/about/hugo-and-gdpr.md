@@ -1,7 +1,7 @@
 ---
 title: Hugo和一般数据保护条例 (GDPR)
 linktitle: Hugo and GDPR
-description: 关于如何配置你的雨果的网站，以满足新规。
+description: 关于如何配置你的Hugo的网站，以满足新规。
 date: 2018-05-25
 layout: single
 keywords: ["GDPR", "Privacy", "Data Protection"]

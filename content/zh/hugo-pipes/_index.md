@@ -1,5 +1,5 @@
 ---
-title: Hugo Pipes Overview
+title: Hugo 管道概述
 date: 2018-07-14
 publishdate: 2018-07-14
 lastmod: 2018-07-14

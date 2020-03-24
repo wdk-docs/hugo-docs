@@ -4,7 +4,7 @@ title: StackImpact
 
 date: 2018-02-20
 
-description: "\"Hugo is a perfect choice for a product website.\""
+description: "\"Hugo是一个产品网站的最佳选择。\""
 
 siteURL: https://stackimpact.com/
 

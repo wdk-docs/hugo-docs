@@ -1,5 +1,5 @@
 ---
-title: Robots.txt File
+title: Robots.txt 文件
 linktitle: Robots.txt
 description: Hugo can generate a customized robots.txt in the same way as any other template.
 date: 2017-02-01

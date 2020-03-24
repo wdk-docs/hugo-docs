@@ -1,7 +1,7 @@
 ---
-title: Developer Tools
-linktitle: Developer Tools Overview
-description: In addition to Hugo's powerful CLI, there is a large number of community-developed tool chains for Hugo developers.
+title: 开发者工具
+linktitle: 开发工具概述
+description: 除了Hugo强大的CLI，还有大量的社区开发工具链Hugo开发的。
 date: 2016-12-05
 publishdate: 2016-12-05
 lastmod: 2017-02-26

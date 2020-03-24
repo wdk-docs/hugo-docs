@@ -4,13 +4,13 @@ title: Tomango
 
 date: 2018-05-04
 
-description: "Showcase: \"Tomango site relaunch: Building our JAMstack site\""
+description: "Showcase: \"Tomango网站重新开张：构建我们的JAMstack网站\""
 
 siteURL: https://www.tomango.co.uk
 
 siteSource: https://github.com/trys/tomango-2018
 
-byline: "[Trys Mudford](http://www.trysmudford.com), Lead Developer, Tomango"
+byline: "[Trys Mudford](http://www.trysmudford.com), 首席开发, Tomango"
 
 ---
 

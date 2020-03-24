@@ -1,6 +1,6 @@
 ---
-title: Host on Firebase
-linktitle: Host on Firebase
+title: Firebase托管
+linktitle: Firebase托管
 description: You can use Firebase's free tier to host your static website; this also gives you access to Firebase's NOSQL API.
 date: 2017-03-12
 publishdate: 2017-03-12

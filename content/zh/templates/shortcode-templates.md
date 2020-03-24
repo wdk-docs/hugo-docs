@@ -1,6 +1,6 @@
 ---
-title: Create Your Own Shortcodes
-linktitle: Shortcode Templates
+title: 创建自己的简码
+linktitle: 简码模板
 description: You can extend Hugo's built-in shortcodes by creating your own using the same templating syntax as that for single and list pages.
 date: 2017-02-01
 publishdate: 2017-02-01
@@ -79,7 +79,7 @@ To access a parameter by position, use the `.Get` followed by a numeric position
 {{ .Get 0 }}
 ```
 
-For the second position, you would just use: 
+For the second position, you would just use:
 
 ```
 {{ .Get 1 }}
@@ -394,7 +394,7 @@ The same inline shortcode can be reused later in the same content file, with dif
  ```go-text-template
 {{</* time.inline /*/>}}
 ```
-	
+
 
 [basic content files]: /content-management/formats/ "See how Hugo leverages markdown--and other supported formats--to create content for your website."
 [built-in shortcode]: /content-management/shortcodes/

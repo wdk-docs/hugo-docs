@@ -1,7 +1,7 @@
 ---
 title: Over
 date: 2018-09-12
-description: "Showcase: \"People from all disciplines contribute to our website; Hugo’s single static binary makes that possible.\""
+description: "Showcase: \"所有学科的人向我们的网站;Hugo的单一静态二进制使之成为可能。\""
 siteURL: https://madewithover.com/
 
 ---

@@ -1,7 +1,7 @@
 ---
-title: Functions Quick Reference
-linktitle: Functions Quick Reference
-description: Comprehensive list of Hugo templating functions, including basic and advanced usage examples.
+title: 函数快速参考
+linktitle: 函数快速参考
+description: Hugo的综合列表模板化函数，包括基本和高级的用法示例。
 godocref:
 date: 2017-02-01
 publishdate: 2017-02-01

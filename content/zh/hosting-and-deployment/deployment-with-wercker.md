@@ -1,7 +1,7 @@
 ---
-title: Deployment with Wercker
-linktitle: Deployment with Wercker
-description: You can use a free tool called Wercker to automate deployments between your GitHub-hosted source and final website on GitHub pages.
+title: 使用Wercker部署
+linktitle: 使用Wercker部署
+description: 您可以使用一个名为Wercker免费工具来自动GitHub的托管源和最终网站GitHub上的页面之间部署。
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2017-02-01

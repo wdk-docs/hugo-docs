@@ -1,7 +1,7 @@
 ---
-title: Contribute to the Hugo Docs
-linktitle: Documentation
-description: Documentation is an integral part of any open source project. The Hugo docs are as much a work in progress as the source it attempts to cover.
+title: 贡献Hugo文档
+linktitle: 文档
+description: 文档资料是任何开源项目的一个组成部分。Hugo文档都在，因为它试图覆盖源进步很多工作。
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2017-02-01
@@ -18,7 +18,7 @@ aliases: [/contribute/docs/]
 toc: true
 ---
 
-## Create Your Fork
+## 创建你的叉
 
 It's best to make changes to the Hugo docs on your local machine to check for consistent visual styling. Make sure you've created a fork of [hugoDocs](https://github.com/gohugoio/hugoDocs) on GitHub and cloned the repository locally on your machine. For more information, you can see [GitHub's documentation on "forking"][ghforking] or follow along with [Hugo's development contribution guide][hugodev].
 
@@ -28,7 +28,7 @@ You can then create a separate branch for your additions. Be sure to choose a de
 git checkout -b jon-doe-showcase-addition
 ```
 
-## Add New Content
+## 添加新内容
 
 The Hugo docs make heavy use of Hugo's [archetypes][] feature. All content sections in Hugo documentation have an assigned archetype.
 
@@ -38,7 +38,7 @@ Adding new content to the Hugo docs follows the same pattern, regardless of the 
 hugo new <DOCS-SECTION>/<new-content-lowercase>.md
 ```
 
-### Add a New Function
+### 添加新功能
 
 Once you have cloned the Hugo repository, you can create a new function via the following command. Keep the file name lowercase.
 
@@ -52,7 +52,7 @@ The archetype for `functions` according to the Hugo docs is as follows:
 {{< readfile file="/archetypes/functions.md">}}
 {{< /code >}}
 
-#### New Function Required Fields
+#### 新功能必填字段
 
 Here is a review of the front matter fields automatically generated for you using `hugo new functions/*`:
 
@@ -88,11 +88,11 @@ Here is a review of the front matter fields automatically generated for you usin
 
 In the body of your function, expand the short description used in the front matter. Include as many examples as possible, and leverage the Hugo docs [`code` shortcode](#adding-code-blocks). If you are unable to add examples but would like to solicit help from the Hugo community, add `needsexample: true` to your front matter.
 
-## Add Code Blocks
+## 添加代码块
 
 Code blocks are crucial for providing examples of Hugo's new features to end users of the Hugo docs. Whenever possible, create examples that you think Hugo users will be able to implement in their own projects.
 
-### Standard Syntax
+### 标准语法
 
 Across many pages on the Hugo docs, the typical triple-back-tick markdown syntax (```` ``` ````) is used. If you do not want to take the extra time to implement the following code block shortcodes, please use standard GitHub-flavored markdown. The Hugo docs use a version of [highlight.js](https://highlightjs.org/) with a specific set of languages.
 
@@ -105,7 +105,7 @@ Your options for languages are `xml`/`html`, `go`/`golang`, `md`/`markdown`/`mkd
 ````
 
 
-### Code Block Shortcode
+### 代码块简码
 
 The Hugo documentation comes with a very robust shortcode for adding interactive code blocks.
 
@@ -135,7 +135,7 @@ The following are the arguments passed into `code`:
 `copy`
 : a copy button is added automatically to all `code` shortcodes. If you want to keep the filename and styling of `code` but don't want to encourage readers to copy the code (e.g., a "Do not do" snippet in a tutorial), use `copy="false"`.
 
-#### Example `code` Input
+#### 例 `code` 输入
 
 This example HTML code block tells Hugo users the following:
 
@@ -164,7 +164,7 @@ This example HTML code block tells Hugo users the following:
 {{</* /code */>}}
 ```
 
-##### Example 'code' Display
+##### 例 'code' 显示
 
 The output of this example will render to the Hugo docs as follows:
 
@@ -206,7 +206,7 @@ The preceding `output` example will render as follows to the Hugo docs:
 <p>I am excited to be using Hugo.</p>
 {{< /output >}} -->
 
-## Blockquotes
+## 引用文字
 
 Blockquotes can be added to the Hugo documentation using [typical Markdown blockquote syntax][bqsyntax]:
 
@@ -232,7 +232,7 @@ Which will render as follows in the Hugo docs:
 Previous versions of Hugo documentation used blockquotes to draw attention to text. This is *not* the [intended semantic use of `<blockquote>`](http://html5doctor.com/cite-and-blockquote-reloaded/). Use blockquotes when quoting. To note or warn your user of specific information, use the admonition shortcodes that follow.
 {{% /note %}}
 
-## Admonitions
+## 忠告
 
 **Admonitions** are common in technical documentation. The most popular is that seen in [reStructuredText Directives][sourceforge]. From the SourceForge documentation:
 
@@ -240,11 +240,11 @@ Previous versions of Hugo documentation used blockquotes to draw attention to te
 
 The Hugo docs contain three admonitions: `note`, `tip`, and `warning`.
 
-### `note` Admonition
+### `note` 训诫
 
 Use the `note` shortcode when you want to draw attention to information subtly. `note` is intended to be less of an interruption in content than is `warning`.
 
-#### Example `note` Input
+#### 例 `note` 输入
 
 {{< code file="note-with-heading.md" >}}
 {{%/* note */%}}
@@ -252,7 +252,7 @@ Here is a piece of information I would like to draw your **attention** to.
 {{%/* /note */%}}
 {{< /code >}}
 
-#### Example `note` Output
+#### 例 `note` 输出
 
 {{< output file="note-with-heading.html" >}}
 {{% note %}}
@@ -260,17 +260,17 @@ Here is a piece of information I would like to draw your **attention** to.
 {{% /note %}}
 {{< /output >}}
 
-#### Example `note` Display
+#### 例 `note` 显示
 
 {{% note %}}
 Here is a piece of information I would like to draw your **attention** to.
 {{% /note %}}
 
-### `tip` Admonition
+### `tip` 训诫
 
 Use the `tip` shortcode when you want to give the reader advice. `tip`, like `note`, is intended to be less of an interruption in content than is `warning`.
 
-#### Example `tip` Input
+#### 例 `tip` 输入
 
 {{< code file="using-tip.md" >}}
 {{%/* tip */%}}
@@ -278,7 +278,7 @@ Here's a bit of advice to improve your productivity with Hugo.
 {{%/* /tip */%}}
 {{< /code >}}
 
-#### Example `tip` Output
+#### 例 `tip` 输出
 
 {{< output file="tip-output.html" >}}
 {{% tip %}}
@@ -286,7 +286,7 @@ Here's a bit of advice to improve your productivity with Hugo.
 {{% /tip %}}
 {{< /output >}}
 
-#### Example `tip` Display
+#### 例 `tip` 显示
 
 {{% tip %}}
 Here's a bit of advice to improve your productivity with Hugo.

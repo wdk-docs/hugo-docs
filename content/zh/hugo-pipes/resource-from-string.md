@@ -1,7 +1,7 @@
 ---
-title: Creating a resource from a string
-linkTitle: Resource from String
-description: Hugo Pipes allows the creation of a resource from a string.
+title: 从字符串创建资源
+linkTitle: 从字符串资源
+description: Hugo 管道可以从一个字符串资源的创建.
 date: 2018-07-14
 publishdate: 2018-07-14
 lastmod: 2018-07-14

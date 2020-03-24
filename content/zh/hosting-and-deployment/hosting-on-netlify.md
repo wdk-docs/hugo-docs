@@ -1,6 +1,6 @@
 ---
-title: Host on Netlify
-linktitle: Host on Netlify
+title: Netlify托管
+linktitle: Netlify托管
 description: Netlify can host your Hugo site with CDN, continuous deployment, 1-click HTTPS, an admin GUI, and its own CLI.
 date: 2017-02-01
 publishdate: 2017-02-01

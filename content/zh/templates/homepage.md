@@ -1,6 +1,6 @@
 ---
-title: Homepage Template
-linktitle: Homepage Template
+title: 首页模板
+linktitle: 首页模板
 description: The homepage of a website is often formatted differently than the other pages. For this reason, Hugo makes it easy for you to define your new site's homepage as a unique template.
 date: 2017-02-01
 publishdate: 2017-02-01

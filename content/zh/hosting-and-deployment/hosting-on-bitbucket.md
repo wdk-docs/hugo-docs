@@ -1,6 +1,6 @@
 ---
-title: Host on Bitbucket
-linktitle: Host on Bitbucket
+title: Bitbucket托管
+linktitle: Bitbucket托管
 description: You can use Bitbucket in conjunction with Aerobatic to build, deploy, and host a Hugo website.
 date: 2017-02-04
 publishdate: 2017-02-04

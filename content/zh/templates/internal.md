@@ -1,6 +1,6 @@
 ---
-title: Internal Templates
-linktitle: Internal Templates
+title: 内置模板
+linktitle: 内置模板
 description: Hugo ships with a group of boilerplate templates that cover the most common use cases for static websites.
 date: 2017-03-06
 publishdate: 2017-03-06

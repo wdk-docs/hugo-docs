@@ -2,7 +2,7 @@
 
 title: Aether
 date: 2020-02-26
-description: "Showcase: \"Hugo is not just a static site generator for us, it's the core framework at the heart of our entire web front-end.\""
+description: "Showcase: \"Hugo不只是一个静态的网站发生器对我们来说，这是在我们整个web前端的心脏的核心框架。\""
 
 # The URL to the site on the internet.
 siteURL: https://getaether.net

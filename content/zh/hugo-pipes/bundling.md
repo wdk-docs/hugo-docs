@@ -1,6 +1,6 @@
 ---
-title: Asset bundling
-description: Hugo Pipes can bundle any number of assets together.
+title: Asset 捆绑
+description: Hugo 管道可以捆绑任何数量的资产在一起.
 date: 2018-07-14
 publishdate: 2018-07-14
 lastmod: 2018-07-14

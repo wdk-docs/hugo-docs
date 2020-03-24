@@ -1,7 +1,7 @@
 ---
-title: Editor Plug-ins for Hugo
-linktitle: Editor Plug-ins
-description: The Hugo community uses a wide range of preferred tools and has developed plug-ins for some of the most popular text editors to help automate parts of your workflow.
+title: 编辑插件Hugo
+linktitle: 编辑器插件
+description: Hugo社区用途广泛的首选工具，并开发插件一些最流行的文本编辑器对您工作的帮助自动化部件。
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2017-02-01

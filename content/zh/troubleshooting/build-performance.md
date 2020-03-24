@@ -1,7 +1,7 @@
 ---
-title: Build Performance
-linktitle: Build Performance
-description: An overview of features used for diagnosing and improving performance issues in site builds.
+title: 构建性能
+linktitle: 构建性能
+description: 功能概述用于诊断和改进性能问题在网站上建立。
 date: 2017-03-12
 publishdate: 2017-03-12
 lastmod: 2017-03-12

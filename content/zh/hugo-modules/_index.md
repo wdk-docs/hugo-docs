@@ -1,7 +1,7 @@
 ---
-title: Hugo Modules
-linktitle: Hugo Modules Overview
-description: How to use Hugo Modules.
+title: Hugo 模块
+linktitle: Hugo 模块概述
+description: 如何使用Hugo模块。
 date: 2017-02-01
 publishdate: 2017-02-01
 menu:

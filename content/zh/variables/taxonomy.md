@@ -1,7 +1,7 @@
 ---
-title: Taxonomy Variables
+title: 分类变量
 linktitle:
-description: Taxonomy pages are of type `Page` and have all page-, site-, and list-level variables available to them. However, taxonomy terms templates have additional variables available to their templates.
+description: 分类页面类型`Page`的，拥有所有页面级，定点和列表级别的变量提供给他们。然而，分类术语模板有提供给他们的模板的其他变量。
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2017-02-01

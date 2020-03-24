@@ -1,6 +1,6 @@
 ---
-title: Introduction to Hugo Templating
-linktitle: Introduction
+title: 简介Hugo模板
+linktitle: 介绍
 description: Hugo uses Go's `html/template` and `text/template` libraries as the basis for the templating.
 godocref: https://golang.org/pkg/html/template/
 date: 2017-02-01

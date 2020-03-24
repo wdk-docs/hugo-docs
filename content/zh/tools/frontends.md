@@ -1,7 +1,7 @@
 ---
-title: Frontend Interfaces with Hugo
-linktitle: Frontends
-description: Do you prefer a graphical user interface over a text editor? Give these frontends a try.
+title: 前端接口与Hugo
+linktitle: 前端
+description: 你喜欢在一个文本编辑器的图形用户界面？给这些前端一试。
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2017-02-01

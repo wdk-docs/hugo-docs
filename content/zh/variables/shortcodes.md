@@ -1,7 +1,7 @@
 ---
-title: Shortcode Variables
-linktitle: Shortcode Variables
-description: Shortcodes can access page variables and also have their own specific built-in variables.
+title: 简码变量
+linktitle: 简码变量
+description: 短代码可以访问页面变量，也有自己特定的内置变量。
 date: 2017-03-12
 publishdate: 2017-03-12
 lastmod: 2017-03-12

@@ -1,6 +1,6 @@
 ---
-title: Asset minification
-description: Hugo Pipes allows the minification of any CSS, JS, JSON, HTML, SVG or XML resource.
+title: 资产压缩
+description: Hugo 管道允许压缩任何CSS，JS，JSON，HTML，SVG或XML资源.
 date: 2018-07-14
 publishdate: 2018-07-14
 lastmod: 2018-07-14

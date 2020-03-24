@@ -1,6 +1,6 @@
 ---
-title: Image Functions
-description: The images namespace provides a list of filters and other image related functions.
+title: 图片函数
+description: 这些图像命名空间提供的过滤器和其它图像相关的函数列表。
 godocref:
 date: 2017-02-01
 categories: [functions]
@@ -13,11 +13,11 @@ toc: true
 ---
 
 
-## Image Filters
+## 图像过滤器
 
 See [images.Filter](#filter) for how to apply these filters to an image.
 
-### Brightness
+### 亮度(Brightness)
 
 {{% funcsig %}}
 images.Brightness PERCENTAGE
@@ -26,7 +26,7 @@ images.Brightness PERCENTAGE
 Brightness creates a filter that changes the brightness of an image.
 The percentage parameter must be in range (-100, 100).
 
-### ColorBalance
+### 色彩均衡(ColorBalance)
 
 {{% funcsig %}}
 images.ColorBalance PERCENTAGERED PERCENTAGEGREEN PERCENTAGEBLUE
@@ -35,7 +35,7 @@ images.ColorBalance PERCENTAGERED PERCENTAGEGREEN PERCENTAGEBLUE
 ColorBalance creates a filter that changes the color balance of an image.
 The percentage parameters for each color channel (red, green, blue) must be in range (-100, 500).
 
-### Colorize
+### 彩色化(Colorize)
 
 {{% funcsig %}}
 images.Colorize HUE SATURATION PERCENTAGE
@@ -46,7 +46,7 @@ The hue parameter is the angle on the color wheel, typically in range (0, 360).
 The saturation parameter must be in range (0, 100).
 The percentage parameter specifies the strength of the effect, it must be in range (0, 100).
 
-### Contrast
+### 对比(Contrast)
 
 {{% funcsig %}}
 images.Contrast PERCENTAGE
@@ -55,7 +55,7 @@ images.Contrast PERCENTAGE
 Contrast creates a filter that changes the contrast of an image.
 The percentage parameter must be in range (-100, 100).
 
-### Gamma
+### 伽玛(Gamma)
 
 {{% funcsig %}}
 images.Gamma GAMMA
@@ -65,7 +65,7 @@ Gamma creates a filter that performs a gamma correction on an image.
 The gamma parameter must be positive. Gamma = 1 gives the original image.
 Gamma less than 1 darkens the image and gamma greater than 1 lightens it.
 
-### GaussianBlur
+### 高斯模糊(GaussianBlur)
 
 {{% funcsig %}}
 images.GaussianBlur SIGMA
@@ -73,7 +73,7 @@ images.GaussianBlur SIGMA
 
 GaussianBlur creates a filter that applies a gaussian blur to an image.
 
-### Grayscale
+### 灰度(Grayscale)
 
 {{% funcsig %}}
 images.Grayscale
@@ -81,7 +81,7 @@ images.Grayscale
 
 Grayscale creates a filter that produces a grayscale version of an image.
 
-### Hue
+### 色调(Hue)
 
 {{% funcsig %}}
 images.Hue SHIFT
@@ -90,7 +90,7 @@ images.Hue SHIFT
 Hue creates a filter that rotates the hue of an image.
 The hue angle shift is typically in range -180 to 180.
 
-### Invert
+### 倒置(Invert)
 
 {{% funcsig %}}
 images.Invert
@@ -98,7 +98,7 @@ images.Invert
 
 Invert creates a filter that negates the colors of an image.
 
-### Pixelate
+### 像素化(Pixelate)
 
 {{% funcsig %}}
 images.Pixelate SIZE
@@ -106,7 +106,7 @@ images.Pixelate SIZE
 
 Pixelate creates a filter that applies a pixelation effect to an image.
 
-### Saturation
+### 饱和(Saturation)
 
 {{% funcsig %}}
 images.Saturation PERCENTAGE
@@ -143,9 +143,9 @@ Sigma must be positive. Sharpen radius roughly equals 3 * sigma.
 The amount parameter controls how much darker and how much lighter the edge borders become. Typically between 0.5 and 1.5.
 The threshold parameter controls the minimum brightness change that will be sharpened. Typically between 0 and 0.05.
 
-## Other Functions
+## 其它函数
 
-### Filter
+### 过滤
 
 {{% funcsig %}}
 IMAGE | images.Filter FILTERS...
@@ -161,7 +161,7 @@ Also see the [Filter Method](/content-management/image-processing/#filter).
 
 ### ImageConfig
 
-Parses the image and returns the height, width, and color model.
+解析图像，并返回所述高度，宽度和颜色模型。
 
 {{% funcsig %}}
 images.ImageConfig PATH

@@ -1,6 +1,6 @@
 ---
-title: Partial Templates
-linktitle: Partial Templates
+title: 部件模板
+linktitle: 部件模板
 description: Partials are smaller, context-aware components in your list and page templates that can be used economically to keep your templating DRY.
 date: 2017-02-01
 publishdate: 2017-02-01

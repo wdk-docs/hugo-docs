@@ -1,6 +1,6 @@
 ---
 title: absLangURL
-description: Adds the absolute URL with correct language prefix according to site configuration for multilingual.
+description: 将带有按照多语言网站的配置正确的语言前缀的绝对URL。
 godocref:
 date: 2017-02-01
 publishdate: 2017-02-01

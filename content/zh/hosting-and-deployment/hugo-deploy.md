@@ -1,7 +1,7 @@
 ---
-title: Hugo Deploy
-linktitle: Hugo Deploy
-description: You can upload your site to GCS, S3, or Azure using the Hugo CLI.
+title: Hugo 部署
+linktitle: Hugo 部署
+description: 您可以使用Hugo CLI 上传您的网站GCS，S3，或天青.
 date: 2019-05-30
 publishdate: 2019-05-30
 lastmod: 2019-05-30

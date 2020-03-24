@@ -1,6 +1,6 @@
 ---
 title: SASS / SCSS
-description: Hugo Pipes allows the processing of SASS and SCSS files.
+description: Hugo 管道允许SASS和SCSS文件的处理.
 date: 2018-07-14
 publishdate: 2018-07-14
 lastmod: 2018-07-14

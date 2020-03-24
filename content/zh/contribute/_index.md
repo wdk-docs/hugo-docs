@@ -1,7 +1,7 @@
 ---
-title: Contribute to the Hugo Project
-linktitle: Contribute to Hugo
-description: Contribute to Hugo development and documentation.
+title: 贡献Hugo项目
+linktitle: 贡献Hugo
+description: 贡献Hugo开发和文档。
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2017-02-01

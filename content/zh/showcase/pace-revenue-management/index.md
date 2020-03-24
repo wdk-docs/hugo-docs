@@ -4,7 +4,7 @@ title: Pace Revenue Management
 
 date: 2018-02-08
 
-description: "Showcase: \"When we came across Hugo we were blown away.\""
+description: "Showcase: \"当我们遇到Hugo来到我们被吹走。\""
 
 siteURL: https://www.paceup.com/
 

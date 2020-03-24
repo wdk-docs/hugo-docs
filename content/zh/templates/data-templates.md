@@ -1,5 +1,5 @@
 ---
-title: Data Templates
+title: 数据模板
 linktitle:
 description: In addition to Hugo's built-in variables, you can specify your own custom data in templates or shortcodes that pull from both local and dynamic sources.
 date: 2017-02-01

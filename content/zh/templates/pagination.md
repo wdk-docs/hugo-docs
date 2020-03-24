@@ -1,6 +1,6 @@
 ---
-title: Pagination
-linktitle: Pagination
+title: 分页
+linktitle: 分页
 description: Hugo supports pagination for your homepage, section pages, and taxonomies.
 date: 2017-02-01
 publishdate: 2017-02-01

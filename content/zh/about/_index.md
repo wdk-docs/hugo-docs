@@ -1,7 +1,7 @@
 ---
 title: 关于 Hugo
 linktitle: 概述
-description: Hugo的功能，路线图，许可和动机。
+description: Hugo的函数，路线图，许可和动机。
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2017-02-01

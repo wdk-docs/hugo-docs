@@ -1,7 +1,7 @@
 ---
-title: Creating a resource from template
-linkTitle: Resource from Template
-description: Hugo Pipes allows the creation of a resource from an asset file using Go Template.
+title: 从模板创建资源
+linkTitle: 来自模板资源
+description: Hugo 管道允许资源从一个资源文件使用Go模板创建.
 date: 2018-07-14
 publishdate: 2018-07-14
 lastmod: 2018-07-14

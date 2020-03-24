@@ -1,6 +1,3 @@
-
-# Chinese menus
-
 [[docs]]
   name = "关于 Hugo"
   weight = 1
@@ -14,13 +11,13 @@
   url = "/zh/getting-started/"
 
 [[docs]]
-  name = "主题"
+  name = "Hugo 模块"
   weight = 15
-  identifier = "themes"
+  identifier = "modules"
   post = "break"
-  url = "/zh/themes/"
+  url = "/zh/hugo-modules/"
 
-# Core languages.zh.menus
+# Core Menus
 
 [[docs]]
   name = "内容管理"
@@ -46,15 +43,23 @@
   weight = 35
   identifier = "variables"
   url = "/zh/variables/"
-
+[[docs]]
+  name = "Hugo 管道"
+  weight = 36
+  identifier = "pipes"
+  url = "/zh/hugo-pipes/"
 [[docs]]
   name = "CLI"
   weight = 40
   post = "break"
   identifier = "commands"
-  url = "/commands/"
+  url = "/zh/commands/"
+
+
 
 # LOW LEVEL ITEMS
+
+
 [[docs]]
   name = "故障排除"
   weight = 60
@@ -68,7 +73,7 @@
   url = "/zh/tools/"
 
 [[docs]]
-  name = "托管与部署"
+  name = "托管和部署"
   weight = 80
   identifier = "hosting-and-deployment"
   url = "/zh/hosting-and-deployment/"
@@ -80,42 +85,69 @@
   identifier = "contribute"
   url = "/zh/contribute/"
 
-[[global]]
-  name = "新闻"
-  weight = 1
-  identifier = "news"
-  url = "/zh/news/"
+#[[docs]]
+#  name = "Tags"
+#  weight = 120
+#  identifier = "tags"
+#  url = "/tags/"
+
+
+# [[docs]]
+#   name = "Categories"
+#   weight = 140
+#   identifier = "categories"
+#   url = "/categories/"
+
+######## QUICKLINKS
+
+  [[quicklinks]]
+    name = "基本面"
+    weight = 1
+    identifier = "fundamentals"
+    url = "/zh/tags/fundamentals/"
+
+
+
+
+######## GLOBAL ITEMS TO BE SHARED WITH THE HUGO SITES
 
 [[global]]
-  name = "文档"
-  weight = 5
-  identifier = "docs"
-  url = "/zh/documentation/"
+    name = "新闻"
+    weight = 1
+    identifier = "news"
+    url = "/zh/news/"
 
-[[global]]
-  name = "主题"
-  weight = 10
-  identifier = "themes"
-  url = "https://themes.gohugo.io/"
+  [[global]]
+    name = "文档"
+    weight = 5
+    identifier = "docs"
+    url = "/zh/documentation/"
 
-[[global]]
-  name = "作品展示"
-  weight = 20
-  identifier = "showcase"
-  url = "/zh/showcase/"
+  [[global]]
+    name = "主题"
+    weight = 10
+    identifier = "themes"
+    url = "https://themes.gohugo.io/"
 
-# Anything with a weight > 100 gets an external icon
-[[global]]
-  name = "社区"
-  weight = 150
-  icon = true
-  identifier = "community"
-  post = "external"
-  url = "https://discourse.gohugo.io/"
+    [[global]]
+      name = "作品展示"
+      weight = 20
+      identifier = "showcase"
+      url = "/zh/showcase/"
 
-[[global]]
-  name = "GitHub"
-  weight = 200
-  identifier = "github"
-  post = "external"
-  url = "https://github.com/gohugoio/hugo"
+  # Anything with a weight > 100 gets an external icon
+  [[global]]
+    name = "社区"
+    weight = 150
+    icon = true
+    identifier = "community"
+    post = "external"
+    url = "https://discourse.gohugo.io/"
+
+
+  [[global]]
+    name = "GitHub"
+    weight = 200
+    identifier = "github"
+    post = "external"
+    url = "https://github.com/gohugoio/hugo"

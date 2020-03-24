@@ -1,7 +1,7 @@
 ---
-title: Host on AWS Amplify
-linktitle: Host on AWS Amplify
-description: Develop and deploy a cloud-powered web app with AWS Amplify. 
+title: AWS Amplify托管
+linktitle: AWS Amplify托管
+description: Develop and deploy a cloud-powered web app with AWS Amplify.
 date: 2018-01-31
 publishdate: 2018-01-31
 lastmod: 2018-01-31
@@ -55,7 +55,7 @@ frontend:
       commands:
         - wget https://github.com/gohugoio/hugo/releases/download/v0.62.2/hugo_extended_0.62.2_Linux-64bit.tar.gz
         - tar -xf hugo_extended_0.62.2_Linux-64bit.tar.gz
-        - mv hugo /usr/bin/hugo 
+        - mv hugo /usr/bin/hugo
         - rm -rf hugo_extended_0.62.2_Linux-64bit.tar.gz
         - hugo version
         - hugo
@@ -66,7 +66,7 @@ frontend:
       - '**/*'
   cache:
     paths: []
-    
+
 ```
 
 [Quick Start]: /getting-started/quick-start/

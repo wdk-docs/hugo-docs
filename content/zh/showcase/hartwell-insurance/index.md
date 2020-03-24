@@ -4,7 +4,7 @@ title: Hartwell Insurance
 
 date: 2018-02-09
 
-description: "Showcase: \"Hugo + Netlify + PWA makes for a rapid website.\""
+description: "Showcase: \"Hugo + Netlify + PWA 使一个快速的网站。\""
 
 siteURL: https://www.hartwell-insurance.com/
 

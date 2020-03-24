@@ -1,6 +1,6 @@
 ---
-title: RSS Templates
-linktitle: RSS Templates
+title: RSS 模板
+linktitle: RSS 模板
 description: Hugo ships with its own RSS 2.0 template that requires almost no configuration, or you can create your own RSS templates.
 date: 2017-02-01
 publishdate: 2017-02-01

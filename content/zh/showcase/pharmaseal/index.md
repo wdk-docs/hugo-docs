@@ -3,7 +3,7 @@
 title: PHARMASEAL
 date: 2019-04-29
 
-description: "Pharmaseal website developed using Hugo, Forestry, hosted and deployed by Netlify."
+description: "Pharmaseal网站使用Hugo，林业，主办，Netlify部署开发。"
 
 # The URL to the site on the internet.
 siteURL: https://pharmaseal.co/

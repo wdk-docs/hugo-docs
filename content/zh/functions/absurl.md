@@ -1,6 +1,6 @@
 ---
 title: absURL
-description: Creates an absolute URL based on the configured baseURL.
+description: 创建基于配置的基本URL绝对URL。
 godocref:
 date: 2017-02-01
 publishdate: 2017-02-01

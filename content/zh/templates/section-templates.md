@@ -1,6 +1,6 @@
 ---
-title: Section Page Templates
-linktitle: Section Templates
+title: 章节页面模板
+linktitle: 章节模板
 description: Templates used for section pages are **lists** and therefore have all the variables and methods available to list pages.
 date: 2017-02-01
 publishdate: 2017-02-01
