@@ -1,11 +1,11 @@
-baseURL = "https://gohugo.io/"
+baseURL = "https://hugo-docs.netlify.com/"
 paginate = 100
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh"
 enableEmoji = true
 # Set the unicode character used for the "return" link in page footnotes.
 footnotereturnlinkcontents = "↩"
-languageCode = "en-us"
-title = "Hugo"
+languageCode = "zh-CN"
+title = "Hugo 文档"
 
 googleAnalytics = "UA-7131036-4"
 

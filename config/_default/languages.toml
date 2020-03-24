@@ -1,10 +1,14 @@
 
   [en]
+    title = "Hugo Docs"
+    description = "Hugo document"
     contentDir = "content/en"
     languageName = "English"
     weight = 1
-  
+
   [zh]
+    title = "Hugo 文档"
+    description = "Hugo文档"
     contentDir = "content/zh"
     languageName = "中文"
     weight = 2
