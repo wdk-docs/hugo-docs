@@ -1,6 +1,6 @@
 ---
-title: 模板 Templates
-linktitle: 模板概览
+title: Templates
+linktitle: Templates Overview
 description: Go templating, template types and lookup order, shortcodes, and data.
 date: 2017-02-01
 publishdate: 2017-02-01
